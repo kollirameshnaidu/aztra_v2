@@ -16,8 +16,22 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/assets/index-Ca9ynbtB.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Cazr9K_n.css">
+    <script>
+      function initApollo() {
+        var n = Math.random().toString(36).substring(7),
+          o = document.createElement('script')
+        o.src = 'https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=' + n
+        o.async = true
+        o.defer = true
+        o.onload = function () {
+          window.trackingFunctions.onLoad({ appId: '69650781401d8f001984ecbf' })
+        }
+        document.head.appendChild(o)
+      }
+      initApollo()
+    </script>
+    <script type="module" crossorigin src="/assets/aztra-BoHUkh1Q.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D0z10OCf.css">
   </head>
   <body>
     <div id="root"></div>
