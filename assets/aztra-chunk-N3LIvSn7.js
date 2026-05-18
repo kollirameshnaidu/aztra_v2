@@ -1,0 +1,1 @@
+function e(e){return`${`/`.endsWith(`/`)?`/`:`//`}${e.replace(/^\//,``)}`}var t={heroBanner:e(`assets/video/Aztra_Banner.mp4`),auroraWalkthrough:e(`assets/video/aurora_walkthrough.mp4`),aries:e(`assets/video/aries.mp4`),dovient:e(`assets/video/dovient.mp4`)},n={auroraDemandPlanning:e(`assets/video/aurora-demand-planning.png`)};export{t as n,n as t};
