@@ -1,0 +1,1 @@
+import{r as e}from"./aztra-chunk-B551uNG4.js";var t=e();function n({children:e,className:n=``,id:r}){return(0,t.jsx)(`section`,{id:r,className:`section-graphics relative isolate px-4 py-12 sm:px-6 md:px-8 md:py-16 lg:px-10 lg:py-20 ${n}`,children:(0,t.jsx)(`div`,{className:`mx-auto max-w-7xl`,children:e})})}export{n as t};

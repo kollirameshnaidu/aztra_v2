@@ -1,0 +1,1 @@
+var e=`/assets/aurora-demand-planning-DFO7MGy1.png`,t=`/assets/aurora_walkthrough-DnzdFtnr.mp4`;export{e as n,t};

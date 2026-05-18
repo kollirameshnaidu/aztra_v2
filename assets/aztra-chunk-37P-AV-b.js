@@ -1,0 +1,1 @@
+var e=`/assets/home-manufacturing-JZXy59V3.jpg`;export{e as t};
