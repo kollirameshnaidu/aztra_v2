@@ -1,0 +1,1 @@
+import{r as e}from"./aztra-chunk-B551uNG4.js";import{t}from"./aztra-chunk-B6PwCNHl.js";var n=e();function r(){return(0,n.jsx)(t,{variant:`readiness`})}export{r as default};
