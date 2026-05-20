@@ -28,15 +28,29 @@
         }
         document.head.appendChild(o)
       }
-      initApollo()
+      function scheduleApollo() {
+        if (typeof requestIdleCallback === 'function') {
+          requestIdleCallback(
+            function () {
+              initApollo()
+            },
+            { timeout: 5000 }
+          )
+        } else {
+          window.addEventListener('load', function () {
+            setTimeout(initApollo, 2000)
+          })
+        }
+      }
+      scheduleApollo()
     </script>
-    <script type="module" crossorigin src="/assets/aztra-Bt9kAHE5.js"></script>
+    <script type="module" crossorigin src="/assets/aztra-DN6g-u6f.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-CO_ruA1_.js">
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-B551uNG4.js">
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-CLcrZDsG.js">
-    <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-gdKou2d3.js">
+    <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-BQbTkFK5.js">
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-37P-AV-b.js">
-    <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-adZuHxfT.js">
+    <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-BUAdoEsN.js">
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-BBRkEh3B.js">
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-DreErUwF.js">
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-BEdP0A99.js">
@@ -45,7 +59,7 @@
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-DcNzSm6E.js">
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-N3LIvSn7.js">
     <link rel="modulepreload" crossorigin href="/assets/aztra-chunk-DKth5lDL.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-BxOXXMkM.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-VO8Q__iV.css">
   </head>
   <body>
     <div id="root"></div>
